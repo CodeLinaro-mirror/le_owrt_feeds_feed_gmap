@@ -24,7 +24,7 @@ Feed_gmap includes the following components:
 
 At the root of your OpenWrt tree, add the following to your `feeds.conf` file:
 ```sh
-src-git feed_gmap https://gitlab.com/soft.at.home/buildsystems/openwrt/feed_gmap.git;master;master
+src-git feed_gmap git@gitlab.com:soft.at.home/buildsystems/openwrt/feed_gmap.git;master
 ```
 Add the packages to your OpenWrt instance with the following commands:
 ```sh
