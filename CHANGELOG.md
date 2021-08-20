@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.7.0 - 2021-08-20(14:14:49 +0000)
+
+### New
+
+- [gmap-server](https://gitlab.com/soft.at.home/gmap/applications/gmap-server): [GMAP] add implementation for name selection
+
 ## Release v0.6.0 - 2021-08-18(17:16:12 +0000)
 
 ### New
