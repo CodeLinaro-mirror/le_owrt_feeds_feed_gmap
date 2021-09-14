@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.7.1 - 2021-09-14(16:27:08 +0000)
+
+### Fixes
+
+- [gmap-mibs-common](https://gitlab.com/soft.at.home/gmap/mibs/gmap-mibs-common): [amxc] add ifdef around when_null_x, when_str_empty_x
+- [gmap-mibs-common](https://gitlab.com/soft.at.home/gmap/mibs/gmap-mibs-common): Use amxc_macros.h instead of local macros
+- [gmap-mod-name-selector](https://gitlab.com/soft.at.home/gmap/applications/gmap-mod-name-selector): [amxc] add ifdef around when_null_x, when_str_empty_x
+
 ## Release v0.7.0 - 2021-08-20(14:14:49 +0000)
 
 ### New
