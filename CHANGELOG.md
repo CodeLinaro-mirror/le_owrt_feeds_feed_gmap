@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.8.0 - 2021-09-15(07:36:35 +0000)
+
+### New
+
+- [gmap-mod-ethernet-dev](https://gitlab.com/soft.at.home/gmap/applications/gmap-mod-ethernet-dev): make use of libdhcpoption
+
 ## Release v0.7.1 - 2021-09-14(16:27:08 +0000)
 
 ### Fixes
