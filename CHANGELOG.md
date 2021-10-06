@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.8.1 - 2021-10-06(11:42:29 +0000)
+
+### Fixes
+
+- [gmap-mod-self](https://gitlab.com/soft.at.home/gmap/applications/gmap-mod-self): [GMAP-MOD-SELF] add ; in odl
+- [gmap-mod-self](https://gitlab.com/soft.at.home/gmap/applications/gmap-mod-self): [GMAP-MOD-SELF] wait for network.device on ubus
+
 ## Release v0.8.0 - 2021-09-15(07:36:35 +0000)
 
 ### New
