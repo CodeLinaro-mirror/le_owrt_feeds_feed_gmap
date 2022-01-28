@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.9.0 - 2022-01-28(19:52:18 +0000)
+
+### New
+
+- [libgmap-client](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-client): Add query functionality
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): Gmap add query functionality
+
 ## Release v0.8.3 - 2021-11-09(08:47:08 +0000)
 
 ### Changes
