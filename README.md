@@ -1,6 +1,6 @@
 # Feed_gmap
 
-SoftAtHome feed of Openwrt packages for gMap components.
+SoftAtHome feed of Openwrt packages for gMap components. This branch includes the components delivered to prpl.
 
 ## Included components
 
