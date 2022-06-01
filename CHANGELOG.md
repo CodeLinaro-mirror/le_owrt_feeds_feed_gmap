@@ -8,6 +8,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.9.1 - 2022-06-01(13:06:16 +0000)
+
+### Fixes
+
+- [gmap-mod-name-selector](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-name-selector): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when memory leaks are detected
+- [gmap-mod-self](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-self): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when memory leaks are detected
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when memory leaks are detected
+
+### Other
+
+- [gmap-mod-ethernet-dev](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev): Fix DHCP option 60 (vendor class) not coming through
+- [libgmap-client](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-client): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when...
+
 ## Release v0.9.0 - 2022-01-28(19:52:18 +0000)
 
 ### New
