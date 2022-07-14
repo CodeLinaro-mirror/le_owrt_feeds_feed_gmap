@@ -10,7 +10,7 @@ Feed_gmap includes the following components:
 
 - [gmap-mod-ethernet-dev](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev) - gMap component that adds discovered devices to the gmap datamodel and links them to the correct interface
 - [gmap-mod-name-selector](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-name-selector) - Name selection module for gmap
-- [gmap-mod-self](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-self) - gmap module to fetch information about the hgw itself and the layer 2 'devices' on it
+- [gmap-mod-self](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-self) - gmap module to fetch information about the hgw/repeater itself and the layer 2 'devices' on it
 - [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server) - Service implementing the gmap data model
 
 ### Configurations
