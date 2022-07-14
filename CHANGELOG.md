@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.9.2 - 2022-07-14(12:54:08 +0000)
+
+### Other
+
+- [gmap-mod-ethernet-dev](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev): Revert "common: add workaround method for retrieving intf from ifindex"
+- [gmap-mod-self](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-self): Switch to using netmodel and amxs
+- [libgmap-client](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-client): Fix `gmap_devices_unlink` doing nothing
+
 ## Release v0.9.1 - 2022-06-01(13:06:16 +0000)
 
 ### Fixes
