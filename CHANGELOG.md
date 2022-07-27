@@ -8,6 +8,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.10.0 - 2022-07-27(09:40:31 +0000)
+
+### New
+
+- [gmap-client](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-client): Component added
+
+### Other
+
+- [gmap-mod-ethernet-dev](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev): [Gitlab CI][Unit tests][valgrind] Pipeline doesn't stop when memory leaks are detected
+- [gmap-mod-ethernet-dev](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev): [prpl][gMap] gMap needs to be split in a gMap-core and gMap-client process
+- [gmap-mod-name-selector](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-name-selector): [prpl][gMap] gMap needs to be split in a gMap-core and gMap-client process
+- [gmap-mod-self](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-self): [prpl][gMap] gMap needs to be split in a gMap-core and gMap-client process
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): [prpl][gMap] gMap needs to be split in a gMap-core and gMap-client process
+
 ## Release v0.9.2 - 2022-07-14(12:54:08 +0000)
 
 ### Other
