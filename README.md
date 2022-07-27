@@ -6,6 +6,10 @@ SoftAtHome feed of Openwrt packages for gMap components.
 
 Feed_gmap includes the following components:
 
+### Plugins
+
+- [gmap-client](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-client) - gMap client plugin
+
 ### Applications
 
 - [gmap-mod-ethernet-dev](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev) - gMap component that adds discovered devices to the gmap datamodel and links them to the correct interface
