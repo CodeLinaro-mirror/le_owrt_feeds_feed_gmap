@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.10.1 - 2022-07-29(09:23:27 +0000)
+
+### Other
+
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): test mib loading + move testhelper functions to correct test file
+
 ## Release v0.10.0 - 2022-07-27(09:40:31 +0000)
 
 ### New
