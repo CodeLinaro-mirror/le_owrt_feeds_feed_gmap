@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.10.2 - 2022-08-04(09:20:50 +0000)
+
+### Other
+
+- [gmap-mod-ethernet-dev](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev): LAN Device must have a uuid as unique (instance)key
+- [libgmap-client](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-client): LAN Device must have a uuid as unique (instance)key
+
 ## Release v0.10.1 - 2022-07-29(09:23:27 +0000)
 
 ### Other
