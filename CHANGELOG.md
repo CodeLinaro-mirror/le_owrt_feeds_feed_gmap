@@ -8,6 +8,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.10.3 - 2022-08-08(16:23:26 +0000)
+
+### Other
+
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): Implement using UUIDs for device keys
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): [prpl][gMap] gMap queries must be evaluated in the gMap server(not the lib)
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): [CI] Fix missing dependencies on uuid
+- [libgmap-client](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-client): [prpl][gMap] gMap queries must be evaluated in the gMap server(not the lib)
+
 ## Release v0.10.2 - 2022-08-04(09:20:50 +0000)
 
 ### Other
