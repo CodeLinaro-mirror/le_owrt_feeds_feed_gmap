@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.10.4 - 2022-08-09(10:47:53 +0000)
+
+### Other
+
+- [gmap-mod-ethernet-dev](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev): Link dev<->port dynamically when all info is available
+
 ## Release v0.10.3 - 2022-08-08(16:23:26 +0000)
 
 ### Other
