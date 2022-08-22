@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.10.5 - 2022-08-22(15:48:10 +0000)
+
+### Other
+
+- [gmap-mod-self](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-self): remove "wifirepeater" tag until clear why needed
+
 ## Release v0.10.4 - 2022-08-09(10:47:53 +0000)
 
 ### Other
