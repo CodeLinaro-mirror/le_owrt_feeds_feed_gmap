@@ -8,6 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.10.6 - 2022-08-30(14:01:45 +0000)
+
+### Other
+
+- [gmap-client](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-client): Gmap: Fix default and make gmap default startup priority configurable
+- [gmap-mod-ethernet-dev](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev): Add missing requires
+- [gmap-mod-name-selector](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-name-selector): Add missing requires
+- [gmap-mod-self](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-self): Add missing requires
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): Gmap: Fix default and make gmap default startup priority configurable
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): Gmap: Fix default and make gmap default startup priorityr configurable
+
 ## Release v0.10.5 - 2022-08-22(15:48:10 +0000)
 
 ### Other
