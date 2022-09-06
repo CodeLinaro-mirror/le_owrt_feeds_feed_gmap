@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.12.0 - 2022-09-06(07:35:42 +0000)
+
+### New
+
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): [prpl][gMap]RPC topology missing
+
 ## Release v0.11.0 - 2022-09-02(07:26:08 +0000)
 
 ### New
