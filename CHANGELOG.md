@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.13.0 - 2022-09-19(16:28:08 +0000)
+
+### Other
+
+- [gmap-client](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-client): Fix `/etc/init.d/gmap-client stop` not working
+- [gmap-mod-ethernet-dev](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev): replace using netlink with using NetDev + test
+
 ## Release v0.12.0 - 2022-09-06(07:35:42 +0000)
 
 ### New
