@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.13.1 - 2022-09-20(12:43:47 +0000)
+
+### Other
+
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): [prpl][gMap]RPC topology missing
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): Create unit tests for amx gMap Query feature
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): the Devices.link() function only allows one lower device
+
 ## Release v0.13.0 - 2022-09-19(16:28:08 +0000)
 
 ### Other
