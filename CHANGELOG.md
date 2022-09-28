@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.13.4 - 2022-09-28(06:14:07 +0000)
+
+### Other
+
+- [gmap-mod-ethernet-dev](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev): Fix fail to subscribe to DHCPv4 at boot
+
 ## Release v0.13.3 - 2022-09-26(15:28:34 +0000)
 
 ### Other
