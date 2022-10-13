@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.13.6 - 2022-10-13(11:22:21 +0000)
+
+### Other
+
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): [amx][gmap] Define Name, setName(), delName() behaviour
+
 ## Release v0.13.5 - 2022-10-06(17:08:01 +0000)
 
 ### Other
