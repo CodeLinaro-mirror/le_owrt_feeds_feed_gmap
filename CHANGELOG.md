@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.13.7 - 2022-10-24(13:32:19 +0000)
+
+### Other
+
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): [gmap] Automatic clean up of inactive devices when MaxDevices is reached.
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): [gmap] Automatic clean up of inactive devices when MaxDevices is reached.
+
 ## Release v0.13.6 - 2022-10-13(11:22:21 +0000)
 
 ### Other
