@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.13.8 - 2022-11-09(10:03:53 +0000)
+
+### Other
+
+- [gmap-mod-ethernet-dev](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev): Talk to standard TR-181 DHCPv4 datamodel instead of custom notifications
+- [libgmap-client](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-client): Add gmap_devices_findByIp
+
 ## Release v0.13.7 - 2022-10-24(13:32:19 +0000)
 
 ### Other
