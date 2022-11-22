@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.13.9 - 2022-11-22(07:54:07 +0000)
+
+### Other
+
+- [libgmap-client](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-client): Add gmap_ip_device_get_addresses()
+
 ## Release v0.13.8 - 2022-11-09(10:03:53 +0000)
 
 ### Other
