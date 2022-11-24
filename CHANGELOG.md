@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.13.10 - 2022-11-24(11:35:59 +0000)
+
+### Other
+
+- [gmap-mod-ethernet-dev](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev): Add DHCP option 12 HostName
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): gMap Server: fix gmaps_device_get_recursive
+
 ## Release v0.13.9 - 2022-11-22(07:54:07 +0000)
 
 ### Other
