@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.13.11 - 2022-11-28(17:46:30 +0000)
+
+### Other
+
+- [gmap-mibs-common](https://gitlab.com/prpl-foundation/components/gmap/mibs/gmap-mibs-common): Add DHCPv4Client & DHCPv6Client in dhcp mib .odl
+
 ## Release v0.13.10 - 2022-11-24(11:35:59 +0000)
 
 ### Other
