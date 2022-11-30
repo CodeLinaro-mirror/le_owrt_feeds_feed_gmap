@@ -8,6 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.14.0 - 2022-11-30(08:00:55 +0000)
+
+### New
+
+- [gmap-mibs-common](https://gitlab.com/prpl-foundation/components/gmap/mibs/gmap-mibs-common): [gMap][wanBlock] Development of a gMap wanblock module
+
+### Other
+
+- [gmap-mod-ethernet-dev](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev): Rename name source 'HostName'->'dhcp'
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): Add 'dhcp' to default name source list
+
 ## Release v0.13.11 - 2022-11-28(17:46:30 +0000)
 
 ### Other
