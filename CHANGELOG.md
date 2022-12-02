@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.14.1 - 2022-12-02(11:52:25 +0000)
+
+### Other
+
+- [gmap-mibs-common](https://gitlab.com/prpl-foundation/components/gmap/mibs/gmap-mibs-common): [amx][gmap] mib-ip fails to load due to undefined symbol
+- [gmap-mod-self](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-self): Sync bridge IP from netmodel + add 'bridge' tag
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): [amx][gmap] mib-ip fails to load due to undefined symbol
+- [libgmap-client](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-client): [amx][gmap] mib-ip fails to load due to undefined symbol
+- [libgmap-client](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-client): Add IP query support
+
 ## Release v0.14.0 - 2022-11-30(08:00:55 +0000)
 
 ### New
