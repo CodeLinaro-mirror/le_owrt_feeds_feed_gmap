@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.14.4 - 2022-12-20(18:44:19 +0000)
+
+### Other
+
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): Use optional include when including components.config.m4
+
 ## Release v0.14.3 - 2022-12-16(10:57:40 +0000)
 
 ### Other
