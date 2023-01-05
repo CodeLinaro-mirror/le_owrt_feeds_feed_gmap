@@ -8,6 +8,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.15.0 - 2023-01-05(16:26:47 +0000)
+
+### New
+
+- [gmap-client](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-client): [import-dbg] Disable import-dbg by default for all amxrt plugin
+- [gmap-mod-self](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-self): [import-dbg] Disable import-dbg by default for all amxrt plugin
+- [libgmap-client](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-client): [import-dbg] Disable import-dbg by default for all amxrt plugin
+
+### Other
+
+- [gmap-mibs-common](https://gitlab.com/prpl-foundation/components/gmap/mibs/gmap-mibs-common): [amx][gmap] Expose mdns information in gMap
+- [libgmap-client](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-client): [amx][gmap] gmap_devices_findByIp function uses incorrect search paths
+
 ## Release v0.14.4 - 2022-12-20(18:44:19 +0000)
 
 ### Other
