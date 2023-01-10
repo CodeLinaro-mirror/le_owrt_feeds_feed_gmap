@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.15.2 - 2023-01-10(13:35:53 +0000)
+
+### Fixes
+
+- [gmap-mod-self](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-self): Use search path in requires statement for instance object
+
+### Other
+
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): GMap Server: implementation of gmap additional expression operators
+
 ## Release v0.15.1 - 2023-01-06(13:23:10 +0000)
 
 ### Fixes
