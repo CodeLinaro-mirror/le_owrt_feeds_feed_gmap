@@ -24,6 +24,7 @@ Feed_gmap includes the following components:
 ### Libraries
 
 - [libgmap-client](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-client) - Client library for gmap modules
+- [libgmap-ext](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-ext) - Functionality common for gmap clients (not server)
 
 ## How to add feed_gmap to your OpenWrt build
 
