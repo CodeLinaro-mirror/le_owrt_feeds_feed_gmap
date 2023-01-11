@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.16.0 - 2023-01-11(11:39:17 +0000)
+
+### New
+
+- [libgmap-ext](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-ext): Component added
+
 ## Release v0.15.2 - 2023-01-10(13:35:53 +0000)
 
 ### Fixes
