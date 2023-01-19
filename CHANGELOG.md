@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.17.1 - 2023-01-19(19:08:49 +0000)
+
+### Other
+
+- [libgmap-client](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-client): [amx][gmap] Expose mdns information in gMap
+
 ## Release v0.17.0 - 2023-01-19(14:45:17 +0000)
 
 ### New
