@@ -8,6 +8,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.17.0 - 2023-01-19(14:45:17 +0000)
+
+### New
+
+- [gmap-mod-ethernet-dev](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev): [import-dbg] Disable import-dbg by default for all amxrt plugin
+
+### Other
+
+- [gmap-mibs-common](https://gitlab.com/prpl-foundation/components/gmap/mibs/gmap-mibs-common): [amx][gmap] Expose mdns information in gMap
+- [gmap-mod-ethernet-dev](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev): Create IP in gmap device on gratuitous ARP
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): gMap server: getParameters, getFirstParameter RPC
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): gMap Server: DM RPC cleanup
+- [libgmap-client](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-client): gMap server: getParameters, getFirstParameter RPC
+- [libgmap-ext](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-ext): send ARP + callback on timeout/success
+
 ## Release v0.16.0 - 2023-01-11(11:39:17 +0000)
 
 ### New
