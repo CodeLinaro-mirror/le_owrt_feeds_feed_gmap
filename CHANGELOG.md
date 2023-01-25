@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.17.3 - 2023-01-25(17:37:20 +0000)
+
+### Other
+
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): [gmap] the max nr of devices needs to be checked in gmaps_new_device instead of in _Devices_createDevice
+
 ## Release v0.17.2 - 2023-01-23(11:36:56 +0000)
 
 ### Other
