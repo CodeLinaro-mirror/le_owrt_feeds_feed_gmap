@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.17.4 - 2023-01-30(18:52:35 +0000)
+
+### Other
+
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): [gmap] avoid using m4 odl files.
+
 ## Release v0.17.3 - 2023-01-25(17:37:20 +0000)
 
 ### Other
