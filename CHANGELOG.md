@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.17.5 - 2023-02-02(12:33:47 +0000)
+
+### Other
+
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): [gmap] Remove the time-plugin requirement from gmap-server
+
 ## Release v0.17.4 - 2023-01-30(18:52:35 +0000)
 
 ### Other
