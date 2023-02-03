@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.17.6 - 2023-02-03(20:34:43 +0000)
+
+### Other
+
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): Fix incorrect log on adding default name
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): Remove event stdout spam
+
 ## Release v0.17.5 - 2023-02-02(12:33:47 +0000)
 
 ### Other
