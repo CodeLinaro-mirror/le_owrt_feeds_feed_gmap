@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.17.7 - 2023-02-06(11:57:57 +0000)
+
+### Other
+
+- [libgmap-ext](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-ext): Track MAC and collisions and reduce ARPs sent
+
 ## Release v0.17.6 - 2023-02-03(20:34:43 +0000)
 
 ### Other
