@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.17.8 - 2023-02-07(14:52:00 +0000)
+
+### Other
+
+- [gmap-mod-ethernet-dev](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev): Mark colliding IPs with Status=error
+
 ## Release v0.17.7 - 2023-02-06(11:57:57 +0000)
 
 ### Other
