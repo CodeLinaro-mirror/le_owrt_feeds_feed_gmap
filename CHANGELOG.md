@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.17.9 - 2023-02-08(18:19:04 +0000)
+
+### Other
+
+- [gmap-mibs-common](https://gitlab.com/prpl-foundation/components/gmap/mibs/gmap-mibs-common): [gMap][BDD] Create Information MiB
+- [gmap-mibs-common](https://gitlab.com/prpl-foundation/components/gmap/mibs/gmap-mibs-common): [BDD][gMap] Create BDD MiB
+
 ## Release v0.17.8 - 2023-02-07(14:52:00 +0000)
 
 ### Other
