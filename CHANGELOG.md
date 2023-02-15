@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.17.10 - 2023-02-15(17:03:48 +0000)
+
+### Other
+
+- [gmap-mibs-common](https://gitlab.com/prpl-foundation/components/gmap/mibs/gmap-mibs-common): Rename nemo->netdev and adapt to new 'style' of mib expression
+- [gmap-mod-self](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-self): Adapt to 'nemo' tag not used anymore
+
 ## Release v0.17.9 - 2023-02-08(18:19:04 +0000)
 
 ### Other
