@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v0.17.11 - 2023-02-16(13:57:24 +0000)
+
+### Other
+
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): Fix gmap-server sometimes thinks time never syncronized
+- [libgmap-client](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-client): [libgmap-client] generated datamodel documentation is empty
+
 ## Release v0.17.10 - 2023-02-15(17:03:48 +0000)
 
 ### Other
