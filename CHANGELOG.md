@@ -8,6 +8,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.0.0 - 2023-02-23(13:52:50 +0000)
+
+### Breaking
+
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): Change setActive API to have source and priority
+- [libgmap-client](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-client): Adapt to new setActive API with source and priority
+
+### Other
+
+- [gmap-mibs-common](https://gitlab.com/prpl-foundation/components/gmap/mibs/gmap-mibs-common): Adapt to new setActive API with source and priority
+- [gmap-mod-ethernet-dev](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev): Adapt to 'nemo' tag not used anymore
+- [gmap-mod-ethernet-dev](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev): Adapt to new setActive API with source and priority
+- [gmap-mod-self](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-self): Adapt to new setActive API with source and priority
+
 ## Release v0.17.11 - 2023-02-16(13:57:24 +0000)
 
 ### Other
