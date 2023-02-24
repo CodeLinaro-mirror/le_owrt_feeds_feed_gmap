@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.0.1 - 2023-02-24(18:31:25 +0000)
+
+### Other
+
+- [gmap-mod-ethernet-dev](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev): Provide a parameter reference to the DHCP Client Lease
+- [gmap-mod-self](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-self): Fix no logging when running standalone
+
 ## Release v1.0.0 - 2023-02-23(13:52:50 +0000)
 
 ### Breaking
