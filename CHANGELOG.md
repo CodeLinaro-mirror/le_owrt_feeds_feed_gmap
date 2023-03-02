@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.0.2 - 2023-03-02(12:03:41 +0000)
+
+### Other
+
+- [gmap-client](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-client): [amx][gmap-client] /etc/init.d/gmap-client does nothing on non-internal build
+
 ## Release v1.0.1 - 2023-02-24(18:31:25 +0000)
 
 ### Other
