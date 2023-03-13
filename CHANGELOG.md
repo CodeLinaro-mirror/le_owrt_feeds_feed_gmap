@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.0.3 - 2023-03-13(07:19:46 +0000)
+
+### Other
+
+- [libgmap-client](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-client): gmap config event handling: server and client side
+
 ## Release v1.0.2 - 2023-03-02(12:03:41 +0000)
 
 ### Other
