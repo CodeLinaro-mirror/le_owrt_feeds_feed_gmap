@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.0.4 - 2023-03-15(17:35:51 +0000)
+
+### Other
+
+- [gmap-mod-ethernet-dev](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev): Adapt to DHCPv4Server path change
+
 ## Release v1.0.3 - 2023-03-13(07:19:46 +0000)
 
 ### Other
