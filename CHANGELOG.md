@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.0.6 - 2023-03-21(19:47:55 +0000)
+
+### Other
+
+- [gmap-mod-ethernet-dev](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev): Listen to NetDev.Link.<port>.Neigh
+
 ## Release v1.0.5 - 2023-03-21(13:59:29 +0000)
 
 ### Other
