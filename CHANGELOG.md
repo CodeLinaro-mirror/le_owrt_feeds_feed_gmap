@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.0.5 - 2023-03-21(13:59:29 +0000)
+
+### Other
+
+- [gmap-mod-ethernet-dev](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev): Rename gmap_ethernet_dev_netdev->gmap_ethernet_dev_bridgetable
+
 ## Release v1.0.4 - 2023-03-15(17:35:51 +0000)
 
 ### Other
