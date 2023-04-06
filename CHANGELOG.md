@@ -8,6 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.0.7 - 2023-04-06(11:33:56 +0000)
+
+### Other
+
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): gMap Functions RPC  not implemented
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): gMap server: action RPCs
+- [libgmap-client](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-client): gMap functions RPC not implemented
+- [libgmap-client](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-client): gMap server: action RPCs
+- [libgmap-ext](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-ext): Renames for discoping
+
 ## Release v1.0.6 - 2023-03-21(19:47:55 +0000)
 
 ### Other
