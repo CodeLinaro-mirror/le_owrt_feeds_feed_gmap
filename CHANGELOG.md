@@ -8,6 +8,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.0.10 - 2023-04-19(07:13:49 +0000)
+
+### Fixes
+
+- [gmap-mibs-common](https://gitlab.com/prpl-foundation/components/gmap/mibs/gmap-mibs-common): [odl]Remove deprecated odl keywords
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): [odl]Remove deprecated odl keywords
+
+### Other
+
+- [gmap-mod-ethernet-dev](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev): Removed deprecated odl keywords in tests
+- [gmap-mod-self](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-self): Removed deprecated odl keywords in tests
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): Removed deprecated odl keywords in tests
+
 ## Release v1.0.9 - 2023-04-07(10:46:25 +0000)
 
 ### Other
