@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.0.11 - 2023-04-20(13:05:36 +0000)
+
+### Other
+
+- [libgmap-ext](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-ext): Split gmap_ext_arp_eth_socket from gmap_ext_discoping_socketlist
+
 ## Release v1.0.10 - 2023-04-19(07:13:49 +0000)
 
 ### Fixes
