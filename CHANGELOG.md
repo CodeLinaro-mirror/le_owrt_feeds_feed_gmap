@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.0.12 - 2023-04-21(10:26:01 +0000)
+
+### Other
+
+- [libgmap-ext](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-ext): Let socketlist deal with arbitrary type of sockets
+
 ## Release v1.0.11 - 2023-04-20(13:05:36 +0000)
 
 ### Other
