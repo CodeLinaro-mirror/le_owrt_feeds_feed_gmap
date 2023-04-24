@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.0.13 - 2023-04-24(15:36:07 +0000)
+
+### Other
+
+- [gmap-mibs-common](https://gitlab.com/prpl-foundation/components/gmap/mibs/gmap-mibs-common): It must be possible to populate Gmap with detected UserAgents
+
 ## Release v1.0.12 - 2023-04-21(10:26:01 +0000)
 
 ### Other
