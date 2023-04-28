@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.0.14 - 2023-04-28(14:16:59 +0000)
+
+### Other
+
+- [libgmap-client](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-client): [gmap][UPNPDiscovery] Add UPNP support in gMap
+
 ## Release v1.0.13 - 2023-04-24(15:36:07 +0000)
 
 ### Other
