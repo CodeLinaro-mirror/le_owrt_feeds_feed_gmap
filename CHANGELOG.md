@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.0.15 - 2023-05-05(12:39:54 +0000)
+
+### Other
+
+- [gmap-mibs-common](https://gitlab.com/prpl-foundation/components/gmap/mibs/gmap-mibs-common): [gmap][UPNPDiscovery] Add UPNP support in gMap
+
 ## Release v1.0.14 - 2023-04-28(14:16:59 +0000)
 
 ### Other
