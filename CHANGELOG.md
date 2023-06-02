@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.0.20 - 2023-06-02(14:31:00 +0000)
+
+### Other
+
+- [gmap-mod-self](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-self): [gmap] MaxDevices implementation doesnt differentiate between devices and interfaces
+
 ## Release v1.0.19 - 2023-06-01(09:40:59 +0000)
 
 ### Other
