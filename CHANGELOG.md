@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.0.21 - 2023-06-07(06:39:09 +0000)
+
+### Other
+
+- [gmap-mod-self](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-self): use amxut
+
 ## Release v1.0.20 - 2023-06-02(14:31:00 +0000)
 
 ### Other
