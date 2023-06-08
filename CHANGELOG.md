@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.0.23 - 2023-06-08(17:09:01 +0000)
+
+### Other
+
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): - [HTTPManager][WebUI] Create plugin's ACLs permissions
+- [gmap-server](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server): [gmap] MaxDevices implementation doesnt differentiate between devices and interfaces
+
 ## Release v1.0.22 - 2023-06-08(07:41:59 +0000)
 
 ### Other
