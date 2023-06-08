@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.0.22 - 2023-06-08(07:41:59 +0000)
+
+### Other
+
+- [libgmap-ext](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-ext): Support verify reachability of an ipv6 IP
+
 ## Release v1.0.21 - 2023-06-07(06:39:09 +0000)
 
 ### Other
