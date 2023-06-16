@@ -8,6 +8,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.0.24 - 2023-06-16(06:51:47 +0000)
+
+### Other
+
+- [gmap-mibs-common](https://gitlab.com/prpl-foundation/components/gmap/mibs/gmap-mibs-common): [amx][gmap] Fix security problems with long names etc
+- [gmap-mod-ethernet-dev](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev): ipv6 for discoping and neighbors
+- [gmap-mod-ethernet-dev](https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev): update documentation
+- [libgmap-client](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-client): [Useragent][EmbeddedFiltering] Create the new AMX Useragent Embeddedfiltering module
+- [libgmap-ext](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-ext): Scan for ipv6 addresses by sending multicast echo request
+- [libgmap-ext](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-ext): Move fake timers to libamxut (+use libamxut)
+- [libgmap-ext](https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-ext): update documentation
+
 ## Release v1.0.23 - 2023-06-08(17:09:01 +0000)
 
 ### Other
