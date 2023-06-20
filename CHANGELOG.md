@@ -8,6 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
+## Release v1.0.26 - 2023-06-20(10:01:50 +0000)
+
+### Other
+
+- [gmap-mibs-common](https://gitlab.com/prpl-foundation/components/gmap/mibs/gmap-mibs-common): [Useragent][EmbeddedFiltering] Create the new AMX Useragent Embeddedfiltering module
+
 ## Release v1.0.25 - 2023-06-20(06:36:47 +0000)
 
 ## Release v1.0.24 - 2023-06-16(06:51:47 +0000)
