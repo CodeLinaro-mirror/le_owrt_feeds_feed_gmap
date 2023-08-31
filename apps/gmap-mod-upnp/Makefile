@@ -1,16 +1,10 @@
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=libgmap-ext
-PKG_VERSION:=v0.8.0
-SHORT_DESCRIPTION:=Functionality common for gmap clients (not server)
+PKG_NAME:=gmap-mod-upnp
+PKG_VERSION:=v0.1.4
+SHORT_DESCRIPTION:=Module to expose upnp information in gMap
 
-PKG_SOURCE:=libgmap-ext-v0.8.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-ext/-/archive/v0.8.0
-PKG_HASH:=f2b2c5e66595bac74c4436ac978354be56a6913e204a4e57cd51418ab1d8fc8b
-PKG_BUILD_DIR:=$(BUILD_DIR)/libgmap-ext-v0.8.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
-PKG_LICENSE:=BSD-2-Clause-Patent
-PKG_LICENSE_FILES:=LICENSE
 
 
 PKG_RELEASE:=1
@@ -19,20 +13,22 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=gmap
-  SUBMENU:=Libraries
+  SUBMENU:=Applications
   TITLE:=$(SHORT_DESCRIPTION)
-  URL:=https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-ext
+  DEPENDS += +libamxb
   DEPENDS += +libamxc
   DEPENDS += +libamxp
-  DEPENDS += +libamxb
   DEPENDS += +libamxd
   DEPENDS += +libamxo
+  DEPENDS += +libamxs
+  DEPENDS += +libgmap-client
   DEPENDS += +libsahtrace
+  DEPENDS += +amxrt
   MENU:=1
 endef
 
 define Package/$(PKG_NAME)/description
-	Functionality common for gmap clients (not server)
+	Module to expose upnp information in gMap
 endef
 
 define Build/Compile

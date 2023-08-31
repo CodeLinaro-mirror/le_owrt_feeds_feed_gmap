@@ -1,16 +1,10 @@
 include $(TOPDIR)/rules.mk
 
-PKG_NAME:=libgmap-ext
-PKG_VERSION:=v0.8.0
-SHORT_DESCRIPTION:=Functionality common for gmap clients (not server)
+PKG_NAME:=gmap-mod-services-db
+PKG_VERSION:=v0.1.5
+SHORT_DESCRIPTION:=gMap component that populates the datamodel based on preconfigured grules
 
-PKG_SOURCE:=libgmap-ext-v0.8.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-ext/-/archive/v0.8.0
-PKG_HASH:=f2b2c5e66595bac74c4436ac978354be56a6913e204a4e57cd51418ab1d8fc8b
-PKG_BUILD_DIR:=$(BUILD_DIR)/libgmap-ext-v0.8.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
-PKG_LICENSE:=BSD-2-Clause-Patent
-PKG_LICENSE_FILES:=LICENSE
 
 
 PKG_RELEASE:=1
@@ -19,20 +13,22 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=gmap
-  SUBMENU:=Libraries
+  SUBMENU:=Applications
   TITLE:=$(SHORT_DESCRIPTION)
-  URL:=https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-ext
   DEPENDS += +libamxc
-  DEPENDS += +libamxp
   DEPENDS += +libamxb
+  DEPENDS += +libamxp
   DEPENDS += +libamxd
   DEPENDS += +libamxo
+  DEPENDS += +libamxj
+  DEPENDS += +libgmap-client
   DEPENDS += +libsahtrace
+  DEPENDS += +amxrt
   MENU:=1
 endef
 
 define Package/$(PKG_NAME)/description
-	Functionality common for gmap clients (not server)
+	gMap component that populates the datamodel based on preconfigured grules
 endef
 
 define Build/Compile
