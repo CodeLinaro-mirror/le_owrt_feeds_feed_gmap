@@ -6,7 +6,7 @@ SHORT_DESCRIPTION:=Module to expose upnp information in gMap
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_VERSION:=v0.1.5
-PKG_SOURCE_URL:=https://$(SAH_GIT_USER):$(SAH_GIT_TOKEN)@$(SAH_GIT)/$(SAH_GIT_GROUP)/components/gmap-mod-upnp.git
+PKG_SOURCE_URL:=https://$(SAH_GIT_USER):$(SAH_GIT_TOKEN)@$(SAH_GIT)/$(SAH_GIT_GROUP)/gmap-mod-upnp.git
 PKG_MIRROR_HASH:=skip
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
@@ -22,7 +22,7 @@ define Package/$(PKG_NAME)
   CATEGORY:=gmap
   SUBMENU:=Applications
   TITLE:=$(SHORT_DESCRIPTION)
-  URL:=https://$(SAH_GIT)/$(SAH_GIT_GROUP)/components/gmap-mod-upnp
+  URL:=https://$(SAH_GIT)/$(SAH_GIT_GROUP)/gmap-mod-upnp
   DEPENDS += +libamxb
   DEPENDS += +libamxc
   DEPENDS += +libamxp
