@@ -1,16 +1,16 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=gmap-mod-mdns
-PKG_VERSION:=v0.1.4
+PKG_VERSION:=v0.1.5
 SHORT_DESCRIPTION:=Module to expose mdns information in gMap
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=v0.1.4
+PKG_SOURCE_VERSION:=v0.1.5
 PKG_SOURCE_URL:=https://$(SAH_GIT_USER):$(SAH_GIT_TOKEN)@$(SAH_GIT)/$(SAH_GIT_GROUP)/gmap-mod-mdns.git
 PKG_MIRROR_HASH:=skip
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
-PKG_LICENSE:=
+PKG_LICENSE:=SAH
 PKG_LICENSE_FILES:=LICENSE
 
 
