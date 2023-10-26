@@ -2,11 +2,11 @@ include $(TOPDIR)/rules.mk
 -include $(STAGING_DIR)/components.config
 
 PKG_NAME:=gmap-mod-upnp
-PKG_VERSION:=v0.1.9
+PKG_VERSION:=v0.2.0
 SHORT_DESCRIPTION:=Module to expose upnp information in gMap
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=v0.1.9
+PKG_SOURCE_VERSION:=v0.2.0
 PKG_SOURCE_URL:=https://$(SAH_GIT_USER):$(SAH_GIT_TOKEN)@$(SAH_GIT)/$(SAH_GIT_GROUP)/gmap-mod-upnp.git
 PKG_MIRROR_HASH:=skip
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
@@ -31,6 +31,7 @@ define Package/$(PKG_NAME)
   DEPENDS += +libamxo
   DEPENDS += +libamxs
   DEPENDS += +libgmap-client
+  DEPENDS += +libgmap-ext
   DEPENDS += +libsahtrace
   DEPENDS += +amxrt
   MENU:=1
