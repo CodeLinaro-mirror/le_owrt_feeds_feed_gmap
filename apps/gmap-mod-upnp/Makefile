@@ -21,7 +21,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
   CATEGORY:=gmap
-  SUBMENU:=Applications
+  SUBMENU:=gMap
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://$(SAH_GIT)/$(SAH_GIT_GROUP)/gmap-mod-upnp
   DEPENDS += +libamxb
