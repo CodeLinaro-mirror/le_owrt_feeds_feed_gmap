@@ -1,0 +1,20 @@
+config PACKAGE_gmap-mod-services-db
+    tristate
+    select SAH_SERVICES_GMAP-MOD_SERVICES-DB
+
+if PACKAGE_gmap-mod-services-db
+
+menu "Select gmap-mod-services-db build options"
+    depends on PACKAGE_gmap-mod-services-db
+
+config SAH_SERVICES_GMAP-MOD_SERVICES-DB
+    bool "Application for populating the datamodel based on grules"
+    default y
+
+config SAH_SERVICES_GMAP-MOD_SERVICES-DB_BUILT-IN_SAH_RULES
+    bool "Include sah proprietary grules in build package"
+    default y
+
+endmenu
+
+endif
