@@ -2,11 +2,11 @@ include $(TOPDIR)/rules.mk
 -include $(STAGING_DIR)/components.config
 
 PKG_NAME:=gmap-mod-conntrack-stats
-PKG_VERSION:=v1.0.2
+PKG_VERSION:=v1.0.3
 SHORT_DESCRIPTION:=Module to conntrack statistics information in gMap
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=v1.0.2
+PKG_SOURCE_VERSION:=v1.0.3
 PKG_SOURCE_URL:=https://$(SAH_GIT_USER):$(SAH_GIT_TOKEN)@$(SAH_GIT)/$(SAH_GIT_GROUP)/gmap-mod-conntrack-stats.git
 PKG_MIRROR_HASH:=skip
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
