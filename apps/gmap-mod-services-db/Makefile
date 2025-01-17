@@ -2,11 +2,11 @@ include $(TOPDIR)/rules.mk
 -include $(STAGING_DIR)/components.config
 
 PKG_NAME:=gmap-mod-services-db
-PKG_VERSION:=v0.2.8
+PKG_VERSION:=v0.2.9
 SHORT_DESCRIPTION:=gMap component that populates the datamodel based on preconfigured grules
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=v0.2.8
+PKG_SOURCE_VERSION:=v0.2.9
 PKG_SOURCE_URL:=https://$(SAH_GIT_USER):$(SAH_GIT_TOKEN)@$(SAH_GIT)/$(SAH_GIT_GROUP)/gmap-mod-services-db.git
 PKG_MIRROR_HASH:=skip
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
