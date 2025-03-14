@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libgmap-client
-PKG_VERSION:=sah-next_v2.1.8
+PKG_VERSION:=sah-next_v2.1.9
 SHORT_DESCRIPTION:=Client library for gmap modules
 
-PKG_SOURCE:=libgmap-client-sah-next_v2.1.8.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-client/-/archive/sah-next_v2.1.8
-PKG_HASH:=37cf67371f4bb8c37fd846187ad006a85324ce05849b27cf5fc55b24f6198e5f
-PKG_BUILD_DIR:=$(BUILD_DIR)/libgmap-client-sah-next_v2.1.8
+PKG_SOURCE:=libgmap-client-sah-next_v2.1.9.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/gmap/libraries/libgmap-client/-/archive/sah-next_v2.1.9
+PKG_HASH:=7dda14d79f2534b7ab064fc503c54bc7ec20a8e867256217e918a3eb3737c7d2
+PKG_BUILD_DIR:=$(BUILD_DIR)/libgmap-client-sah-next_v2.1.9
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
