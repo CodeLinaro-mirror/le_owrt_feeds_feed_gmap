@@ -1,13 +1,15 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/gmap/mibs/gmap-mibs-common/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=gmap-mibs-common
-PKG_VERSION:=sah-next_v0.24.8
+PKG_VERSION:=sah-next_v0.25.0
 SHORT_DESCRIPTION:=Generic mib files for the gmap service
 
-PKG_SOURCE:=gmap-mibs-common-sah-next_v0.24.8.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/gmap/mibs/gmap-mibs-common/-/archive/sah-next_v0.24.8
-PKG_HASH:=863f35879708291d330b61f3248daa57d07e3167b35daa445f52993fd52303de
-PKG_BUILD_DIR:=$(BUILD_DIR)/gmap-mibs-common-sah-next_v0.24.8
+PKG_SOURCE:=gmap-mibs-common-sah-next_v0.25.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/gmap/mibs/gmap-mibs-common/-/archive/sah-next_v0.25.0
+PKG_HASH:=c56add56e48c209bedd92bcd9e123a08da415f031266b5218c3f3d1ce3b9dbb0
+PKG_BUILD_DIR:=$(BUILD_DIR)/gmap-mibs-common-sah-next_v0.25.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
