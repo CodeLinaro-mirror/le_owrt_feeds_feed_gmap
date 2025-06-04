@@ -1,11 +1,14 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.softathome.com/ext_prpl/components/gmap-mod-mdns/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
+-include $(STAGING_DIR)/components.config
 
 PKG_NAME:=gmap-mod-mdns
-PKG_VERSION:=v0.1.5
+PKG_VERSION:=v0.2.0
 SHORT_DESCRIPTION:=Module to expose mdns information in gMap
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=v0.1.5
+PKG_SOURCE_VERSION:=v0.2.0
 PKG_SOURCE_URL:=https://$(SAH_GIT_USER):$(SAH_GIT_TOKEN)@$(SAH_GIT)/$(SAH_GIT_GROUP)/gmap-mod-mdns.git
 PKG_MIRROR_HASH:=skip
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
@@ -19,7 +22,7 @@ PKG_RELEASE:=1
 include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
-  CATEGORY:=gmap
+  CATEGORY:=SoftAtHome
   SUBMENU:=gMap
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://$(SAH_GIT)/$(SAH_GIT_GROUP)/gmap-mod-mdns
@@ -30,6 +33,7 @@ define Package/$(PKG_NAME)
   DEPENDS += +libamxo
   DEPENDS += +libamxs
   DEPENDS += +libgmap-client
+  DEPENDS += +libgmap-ext
   DEPENDS += +libsahtrace
   DEPENDS += +amxrt
   MENU:=1
@@ -45,9 +49,6 @@ endef
 
 define Build/Install
 	$(call Build/Install/Default, install INSTALL=install D=$(PKG_INSTALL_DIR) DEST=$(PKG_INSTALL_DIR) STAGINGDIR=$(STAGING_DIR) CONFIGDIR=$(STAGING_DIR) PV=$(PKG_VERSION) PKG_CONFIG_LIBDIR=$(STAGING_DIR)/usr/lib/pkgconfig LIBDIR=/usr/lib INSTALL_LIB_DIR=/lib INSTALL_BIN_DIR=/bin RAW_VERSION=$(PKG_VERSION) HARDCO_HAL_DIR=$(STAGING_DIR)/usr/include CONFIG_GATEWAY=$(CONFIG_GATEWAY) CONFIG_ACCESSPOINT=$(CONFIG_ACCESSPOINT))
-	find $(PKG_INSTALL_DIR) -name *.a -exec rm {} +;
-	find $(PKG_INSTALL_DIR) -name *.h -exec rm {} +;
-	find $(PKG_INSTALL_DIR) -name *.pc -exec rm {} +;
 endef
 
 define Build/InstallDev
@@ -59,6 +60,9 @@ define Package/$(PKG_NAME)/install
 	if [ -d ./files ]; then \
 		$(CP) ./files/* $(1)/; \
 	fi
+	find $(1) -name *.a -exec rm {} +;
+	find $(1) -name *.h -exec rm {} +;
+	find $(1) -name *.pc -exec rm {} +;
 endef
 
 $(eval $(call BuildPackage,$(PKG_NAME)))
