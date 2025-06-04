@@ -1,12 +1,14 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.softathome.com/ext_prpl/components/gmap-mod-conntrack-stats/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 -include $(STAGING_DIR)/components.config
 
 PKG_NAME:=gmap-mod-conntrack-stats
-PKG_VERSION:=v1.0.3
+PKG_VERSION:=v1.1.0
 SHORT_DESCRIPTION:=Module to conntrack statistics information in gMap
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=v1.0.3
+PKG_SOURCE_VERSION:=v1.1.0
 PKG_SOURCE_URL:=https://$(SAH_GIT_USER):$(SAH_GIT_TOKEN)@$(SAH_GIT)/$(SAH_GIT_GROUP)/gmap-mod-conntrack-stats.git
 PKG_MIRROR_HASH:=skip
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
@@ -20,7 +22,7 @@ PKG_RELEASE:=1
 include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
-  CATEGORY:=gmap
+  CATEGORY:=SoftAtHome
   SUBMENU:=gMap
   TITLE:=$(SHORT_DESCRIPTION)
   URL:=https://$(SAH_GIT)/$(SAH_GIT_GROUP)/gmap-mod-conntrack-stats
