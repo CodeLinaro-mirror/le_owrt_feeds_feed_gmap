@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=gmap-server
-PKG_VERSION:=sah-next_v3.5.0
+PKG_VERSION:=sah-next_v3.6.0
 SHORT_DESCRIPTION:=Service implementing the gmap data model
 
-PKG_SOURCE:=gmap-server-sah-next_v3.5.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server/-/archive/sah-next_v3.5.0
-PKG_HASH:=94ca0d1b32d7f7702aa6a3dee00b3f9e824bfd03e13e5362e6048496ec39bbe8
-PKG_BUILD_DIR:=$(BUILD_DIR)/gmap-server-sah-next_v3.5.0
+PKG_SOURCE:=gmap-server-sah-next_v3.6.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server/-/archive/sah-next_v3.6.0
+PKG_HASH:=68850cb9fa22d8459b0e9ce60c7f48f67da6ec76a925792d314dde5b438246e2
+PKG_BUILD_DIR:=$(BUILD_DIR)/gmap-server-sah-next_v3.6.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
