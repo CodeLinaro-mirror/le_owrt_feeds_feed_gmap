@@ -1,13 +1,15 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-name-selector/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=gmap-mod-name-selector
-PKG_VERSION:=v1.0.2
+PKG_VERSION:=sah-next_v1.1.0
 SHORT_DESCRIPTION:=Name selection module for gmap
 
-PKG_SOURCE:=gmap-mod-name-selector-v1.0.2.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-name-selector/-/archive/v1.0.2
-PKG_HASH:=b0239e8099767a85859d70fbd43b0cb805292104d55a6782bab2a8f3f7740b4b
-PKG_BUILD_DIR:=$(BUILD_DIR)/gmap-mod-name-selector-v1.0.2
+PKG_SOURCE:=gmap-mod-name-selector-sah-next_v1.1.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-name-selector/-/archive/sah-next_v1.1.0
+PKG_HASH:=e06d5db18ff80849260b704837ba324904196aa86719d95c529e146ab45d4c1a
+PKG_BUILD_DIR:=$(BUILD_DIR)/gmap-mod-name-selector-sah-next_v1.1.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
