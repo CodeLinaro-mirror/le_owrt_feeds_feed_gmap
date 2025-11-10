@@ -1,17 +1,15 @@
 # WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling
-# WARNING: You should contribute changes to https://gitlab.softathome.com/ext_prpl/components/gmap-mod-upnp/-/blob/main/baf.yml instead
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-upnp/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
--include $(STAGING_DIR)/components.config
 
 PKG_NAME:=gmap-mod-upnp
-PKG_VERSION:=v0.5.0
+PKG_VERSION:=sah-next_v0.5.1
 SHORT_DESCRIPTION:=Module to expose upnp information in gMap
 
-PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=v0.5.0
-PKG_SOURCE_URL:=https://$(SAH_GIT_USER):$(SAH_GIT_TOKEN)@$(SAH_GIT)/$(SAH_GIT_GROUP)/gmap-mod-upnp.git
-PKG_MIRROR_HASH:=skip
-PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
+PKG_SOURCE:=gmap-mod-upnp-sah-next_v0.5.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-upnp/-/archive/sah-next_v0.5.1
+PKG_HASH:=skip
+PKG_BUILD_DIR:=$(BUILD_DIR)/gmap-mod-upnp-sah-next_v0.5.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=SAH
 PKG_LICENSE_FILES:=LICENSE
@@ -22,10 +20,10 @@ PKG_RELEASE:=1
 include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
-  CATEGORY:=SoftAtHome
+  CATEGORY:=prpl Foundation
   SUBMENU:=gMap
   TITLE:=$(SHORT_DESCRIPTION)
-  URL:=https://$(SAH_GIT)/$(SAH_GIT_GROUP)/gmap-mod-upnp
+  URL:=https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-upnp
   DEPENDS += +libamxb
   DEPENDS += +libamxc
   DEPENDS += +libamxp
