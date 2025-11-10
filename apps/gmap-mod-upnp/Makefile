@@ -3,15 +3,15 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=gmap-mod-upnp
-PKG_VERSION:=sah-next_v0.5.1
+PKG_VERSION:=sah-next_v0.7.0
 SHORT_DESCRIPTION:=Module to expose upnp information in gMap
 
-PKG_SOURCE:=gmap-mod-upnp-sah-next_v0.5.1.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-upnp/-/archive/sah-next_v0.5.1
+PKG_SOURCE:=gmap-mod-upnp-sah-next_v0.7.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-upnp/-/archive/sah-next_v0.7.0
 PKG_HASH:=skip
-PKG_BUILD_DIR:=$(BUILD_DIR)/gmap-mod-upnp-sah-next_v0.5.1
+PKG_BUILD_DIR:=$(BUILD_DIR)/gmap-mod-upnp-sah-next_v0.7.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
-PKG_LICENSE:=SAH
+PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
 
 
