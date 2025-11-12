@@ -8,7 +8,7 @@ SHORT_DESCRIPTION:=Module to expose upnp information in gMap
 
 PKG_SOURCE:=gmap-mod-upnp-sah-next_v0.7.0.tar.gz
 PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-upnp/-/archive/sah-next_v0.7.0
-PKG_HASH:=skip
+PKG_HASH:=7e1cc47fb27deef6664da8d347f77d049a0a0ee2422ebd9bdb58ddc13a09c9cc
 PKG_BUILD_DIR:=$(BUILD_DIR)/gmap-mod-upnp-sah-next_v0.7.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
