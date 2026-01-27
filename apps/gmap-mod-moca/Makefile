@@ -4,11 +4,11 @@ include $(TOPDIR)/rules.mk
 -include $(STAGING_DIR)/components.config
 
 PKG_NAME:=gmap-mod-moca
-PKG_VERSION:=v0.5.2
+PKG_VERSION:=v0.5.3
 SHORT_DESCRIPTION:=Module to expose MoCA information in gMap
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=v0.5.2
+PKG_SOURCE_VERSION:=v0.5.3
 PKG_SOURCE_URL:=https://$(SAH_GIT_USER):$(SAH_GIT_TOKEN)@$(SAH_GIT)/$(SAH_GIT_GROUP)/gmap-mod-moca.git
 PKG_MIRROR_HASH:=skip
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
