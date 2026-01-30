@@ -3,13 +3,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=gmap-mod-ethernet-dev
-PKG_VERSION:=sah-next_v1.26.1
+PKG_VERSION:=sah-next_v1.27.0
 SHORT_DESCRIPTION:=gMap component that adds discovered devices to the gmap datamodel and links them to the correct interface
 
-PKG_SOURCE:=gmap-mod-ethernet-dev-sah-next_v1.26.1.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev/-/archive/sah-next_v1.26.1
-PKG_HASH:=1a07f1397a5097119bab2948e7eccf20a89ddf6ad6865cad7a950857b282d950
-PKG_BUILD_DIR:=$(BUILD_DIR)/gmap-mod-ethernet-dev-sah-next_v1.26.1
+PKG_SOURCE:=gmap-mod-ethernet-dev-sah-next_v1.27.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev/-/archive/sah-next_v1.27.0
+PKG_HASH:=459c414eaa2d4d5115844660b18bd46b2671d72bd049336329200a555c45319f
+PKG_BUILD_DIR:=$(BUILD_DIR)/gmap-mod-ethernet-dev-sah-next_v1.27.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
