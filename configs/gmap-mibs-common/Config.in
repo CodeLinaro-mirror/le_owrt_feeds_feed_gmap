@@ -1,0 +1,34 @@
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.3)
+# WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/gmap/mibs/gmap-mibs-common/-/blob/main/baf.yml instead
+config PACKAGE_gmap-mibs-common
+    tristate
+    select SAH_SERVICES_GMAP-MIBS-COMMON
+
+if PACKAGE_gmap-mibs-common
+
+menu "Select gmap-mibs-common build options"
+    depends on PACKAGE_gmap-mibs-common
+
+config SAH_SERVICES_GMAP-MIBS-COMMON
+    bool "Include gmap mibs"
+    default y
+
+config SAH_SERVICES_GMAP-MIBS-COMMON_WAN-ACCESS
+    bool "Enable the WanAccess mib"
+    default y
+
+config SAH_SERVICES_GMAP-MIBS-COMMON_PRIORITY
+    bool "Enable the Priority mib"
+    default y
+
+config SAH_SERVICES_GMAP-MIBS-COMMON_LOCATION
+    bool "Enable the Location mib"
+    default y
+
+config SAH_SERVICES_GMAP-MIBS-COMMON_INFORMATION
+    bool "Enable the Information mib"
+    default y
+
+endmenu
+
+endif
