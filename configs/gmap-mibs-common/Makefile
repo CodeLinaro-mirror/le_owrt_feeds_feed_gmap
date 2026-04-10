@@ -1,16 +1,16 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.3)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version master)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/gmap/mibs/gmap-mibs-common/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=gmap-mibs-common
-RAW_VERSION:=sah-next-4.1_v0.2.0
+RAW_VERSION:=sah-next-4.2_v0.2.1
 PKG_VERSION:=$(if $(filter v0% v1% v2% v3% v4% v5% v6% v7% v8% v9%,$(RAW_VERSION)),$(patsubst v%,%,$(RAW_VERSION)),$(RAW_VERSION))
 SHORT_DESCRIPTION:=Generic mib files for the gmap service
 
-PKG_SOURCE:=gmap-mibs-common-sah-next-4.1_v0.2.0.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/gmap/mibs/gmap-mibs-common/-/archive/sah-next-4.1_v0.2.0
-PKG_HASH:=7194f0fb8e22ddf92f6705f0251a9417d2c2232dcb564d3a521def6afec375bd
-PKG_BUILD_DIR:=$(BUILD_DIR)/gmap-mibs-common-sah-next-4.1_v0.2.0
+PKG_SOURCE:=gmap-mibs-common-sah-next-4.2_v0.2.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/gmap/mibs/gmap-mibs-common/-/archive/sah-next-4.2_v0.2.1
+PKG_HASH:=a49d1b8a49d82ef2a714a19ecf6d1c7e97ad30cbc4e0451c0190e71b492173a9
+PKG_BUILD_DIR:=$(BUILD_DIR)/gmap-mibs-common-sah-next-4.2_v0.2.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
@@ -58,7 +58,9 @@ define Build/InstallDev
 endef
 
 define Package/$(PKG_NAME)/install
-	$(CP) $(PKG_INSTALL_DIR)/* $(1)/
+	if [ -d $(PKG_INSTALL_DIR) ]; then \
+		$(CP) $(PKG_INSTALL_DIR)/* $(1)/; \
+	fi
 	if [ -d ./files ]; then \
 		$(CP) ./files/* $(1)/; \
 	fi
