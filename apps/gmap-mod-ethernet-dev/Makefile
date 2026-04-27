@@ -1,15 +1,15 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.39.3)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version v2.39.3)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=gmap-mod-ethernet-dev
-PKG_VERSION:=sah-next-4.1_v1.28.1
+PKG_VERSION:=sah-next-4.1-lts_v1.28.1
 SHORT_DESCRIPTION:=gMap component that adds discovered devices to the gmap datamodel and links them to the correct interface
 
-PKG_SOURCE:=gmap-mod-ethernet-dev-sah-next-4.1_v1.28.1.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev/-/archive/sah-next-4.1_v1.28.1
-PKG_HASH:=89d7a151d1dbf6ab3a6bf924e0d97b234ba26a411ffc6c4354eb49558303bc48
-PKG_BUILD_DIR:=$(BUILD_DIR)/gmap-mod-ethernet-dev-sah-next-4.1_v1.28.1
+PKG_SOURCE:=gmap-mod-ethernet-dev-sah-next-4.1-lts_v1.28.1.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-mod-ethernet-dev/-/archive/sah-next-4.1-lts_v1.28.1
+PKG_HASH:=c7f3acb08f5812cbc5cbed41a3a580d9c3637da903b5689c52d8e853b23a199f
+PKG_BUILD_DIR:=$(BUILD_DIR)/gmap-mod-ethernet-dev-sah-next-4.1-lts_v1.28.1
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
