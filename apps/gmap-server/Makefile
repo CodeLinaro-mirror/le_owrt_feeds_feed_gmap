@@ -1,16 +1,16 @@
-# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version master)
+# WARNING: Automatically generated file using BAF (Build system Agnostic File) tooling (version 2.40.6)
 # WARNING: You should contribute changes to https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server/-/blob/main/baf.yml instead
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=gmap-server
-RAW_VERSION:=sah-next-4.2_v0.6.1
+RAW_VERSION:=sah-next-4.2_v0.7.0
 PKG_VERSION:=$(if $(filter v0% v1% v2% v3% v4% v5% v6% v7% v8% v9%,$(RAW_VERSION)),$(patsubst v%,%,$(RAW_VERSION)),$(RAW_VERSION))
 SHORT_DESCRIPTION:=Service implementing the gmap data model
 
-PKG_SOURCE:=gmap-server-sah-next-4.2_v0.6.1.tar.gz
-PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server/-/archive/sah-next-4.2_v0.6.1
-PKG_HASH:=354664855c3b109e7d9224e6585600da66dc34c0be2d8372a7750f2e62a6f105
-PKG_BUILD_DIR:=$(BUILD_DIR)/gmap-server-sah-next-4.2_v0.6.1
+PKG_SOURCE:=gmap-server-sah-next-4.2_v0.7.0.tar.gz
+PKG_SOURCE_URL:=https://gitlab.com/prpl-foundation/components/gmap/applications/gmap-server/-/archive/sah-next-4.2_v0.7.0
+PKG_HASH:=2f2f2096f1dc60349e273c492439d3edfc6fb00e40413b2ec2ec7a7ce4d081e5
+PKG_BUILD_DIR:=$(BUILD_DIR)/gmap-server-sah-next-4.2_v0.7.0
 PKG_MAINTAINER:=Soft At Home <support.opensource@softathome.com>
 PKG_LICENSE:=BSD-2-Clause-Patent
 PKG_LICENSE_FILES:=LICENSE
